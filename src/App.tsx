@@ -8,6 +8,7 @@ import { EmpowermentPrograms } from './pages/EmpowermentPrograms';
 import { BankServices } from './pages/BankServices';
 import { NewsAndEvents } from './pages/NewsAndEvents';
 import { Contact } from './pages/Contact';
+import { BecomeAMember } from './pages/BecomeAMember';
 export function App() {
   return <Router>
       <Layout>
@@ -18,6 +19,7 @@ export function App() {
           <Route path="/services" element={<BankServices />} />
           <Route path="/news" element={<NewsAndEvents />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/register" element={<BecomeAMember />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Layout>
